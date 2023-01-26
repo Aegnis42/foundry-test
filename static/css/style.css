@@ -194,7 +194,7 @@
   }
   p{
     margin: 50px auto;
-    width: 1200px;
+    max-width: 1200px;
     text-align: center;
     font-size: var(--font_size_18);
     color: var(--color_light_1);
@@ -268,13 +268,27 @@
     color: var(--color_light_1);
     text-shadow: 0 0 10px var(--color_warm_2);
   }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  #news img{
+    position: relative;
+    top: 40px;
+    left: 100px;
+    width: 1000px;
+    height: 480px;
+    border-radius: 5%;
+  }
+  #news p{
+    margin-top: 80px;
+    margin-bottom:25px ;
+  }
+  #CORE_FEATURES img{
+    position: relative;
+    top: 40px;
+    left: 100px;
+    width: 1000px;
+    height: 480px;
+    border-radius: 5%;
+  }
+  #CORE_FEATURES p{
+    margin-top: 80px;
+    margin-bottom:25px ;
+  }
