@@ -133,7 +133,7 @@ nav{
   z-index: 2;
 }
 
-header{
+header h1,header h2{
   text-align: center;
   flex: none;
 }
@@ -286,6 +286,8 @@ main h2{
   width: 1000px;
   height: 480px;
   border-radius: 5%;
+  -webkit-mask-image: linear-gradient(to top, transparent 25%, black 66%);
+  mask-image: linear-gradient(to top, transparent 25%, black 66%);
 }
 #news p{
   margin-top: 80px;
@@ -354,4 +356,49 @@ main h2{
     width: 1000px;
     height: 480px;
     border-radius: 5%;
+    -webkit-mask-image: linear-gradient(to top, transparent 25%, black 66%);
+    mask-image: linear-gradient(to top, transparent 25%, black 66%);
+}
+.reseau{
+  position: relative;
+  top: 1000px;
+  text-align: center;
+  text-decoration: none;
+  background-color: transparent;
+}
+.reseau p{
+  font-size: var(--font_size_20);
+  margin: 10px auto;
+}
+.reseau a{
+  text-decoration: none;
+  color: var(--color_light_3);
+  font-size: var(--font_size_28);
+  margin: 0 10px;
+}
+.reseau a:hover{
+  text-shadow: 0 0 10px var(--color_warm_2);
+}
+.links{
+  text-align: center;
+  padding-top: 25px;
+  height: 175px;
+  width: 100%;
+  background-color: var(--color_cool_5_50);
+  position: relative;
+  top: 1090px;
+}
+.links a{
+  text-decoration: none;
+  padding: 0 1rem;
+  border-right: 1px solid var(--color_light_6);
+  color: var(--color_light_5);
+}
+.links a:last-child{
+  border-right: 1px solid transparent;
+}
+.links p {color: var(--color_light_5);
+}
+.links a:hover{
+text-shadow: 0 0 10px var(--color_warm_2);
 }
